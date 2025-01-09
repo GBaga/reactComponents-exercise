@@ -1,0 +1,31 @@
+header {
+  background-color: #033e8c; /* Deep blue for a bold, modern background */
+  color: #f2b705; /* Yellow for vibrant and high-contrast text */
+  text-align: center;
+  padding: 2rem;
+  border-bottom: 2px solid #f28705;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.name-box {
+  display: inline-block;
+}
+
+header .site-name {
+  font-size: 2.8rem; /* Larger for emphasis */
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  color: #f28705; /* Vibrant orange to contrast with the blue */
+}
+
+header .subtitle {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+  opacity: 0.9;
+  color: #f2b705; /* Consistent yellow for secondary text */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}

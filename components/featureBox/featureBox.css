@@ -1,0 +1,35 @@
+.feature-box {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #f2b705;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.feature-icon {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(3, 62, 140, 0.3);
+  border-radius: 10px;
+}
+
+.feature-text-box {
+  text-align: left;
+  /* padding: 0 15px; */
+}
+
+.feature-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d9043d;
+  margin: 0;
+}
+
+.feature-description {
+  font-size: 14px;
+  color: #000;
+  margin-top: 5px;
+}

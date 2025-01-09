@@ -1,0 +1,27 @@
+.company-logo {
+  height: 100px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #d9043d;
+  border-radius: 35% 0 0 35%;
+  border-left: none;
+}
+
+.company-logo img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  background-color: #f2b705;
+  border-radius: 35% 0 0 35%;
+  border: 1px solid #d9043d;
+  border-right: none;
+  color: #fff;
+}
+
+.company-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  width: 200px;
+}

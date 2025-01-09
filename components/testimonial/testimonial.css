@@ -1,0 +1,70 @@
+.quotes {
+  max-width: 600px;
+
+  display: flex;
+  place-content: center;
+  grid-template-areas: "stack";
+  width: 100%;
+  position: relative;
+}
+
+.quote-mark {
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  z-index: 5;
+}
+
+.quotes > article {
+  grid-area: stack;
+  margin-block-end: 1rem;
+}
+
+.quotes blockquote {
+  margin-bottom: 1rem;
+  text-align: right;
+  background: #f28705;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+}
+
+.quotes blockquote > p {
+  position: relative;
+  font-weight: 300;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #033e8c;
+  background-color: #f2b705;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.quotes .user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: end;
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.quotes .user p:first-child {
+  font-size: 1.1rem;
+  color: #d9043d;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.quotes .user p:last-child {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #f28705;
+}
+
+.quotes .user img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border: 2px solid #d9043d;
+}

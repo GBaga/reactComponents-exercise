@@ -1,0 +1,38 @@
+.profile-card {
+  background-color: #f28705;
+  color: #033e8c;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+  min-height: 400px;
+  max-height: fit-content;
+}
+
+.profile-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 2px solid #d9043d;
+}
+
+.profile-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.profile-card Button {
+  height: 30px;
+  width: 60px;
+  margin-top: 10px;
+}

@@ -1,0 +1,33 @@
+.hero-section {
+  max-width: 90%;
+  min-height: 300px;
+  max-height: fit-content;
+  color: #033e8c;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 10px;
+  background-image: url(./hero-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* text-align: left; */
+  font-family: "Arial", sans-serif;
+}
+
+.hero-section h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  backdrop-filter: blur(10px);
+  width: fit-content;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  backdrop-filter: blur(10px);
+  width: fit-content;
+}
+
+.hero-section Button {
+  margin-top: 70px;
+}
