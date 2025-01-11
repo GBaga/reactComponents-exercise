@@ -6,7 +6,6 @@ import { Main } from '../components/main/Main';
 
 
 function App() {
-  const name = "Goga";
   return (
     <>
       <Header></Header>

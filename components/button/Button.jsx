@@ -2,6 +2,13 @@ import './button.css'
 
 export const Button = (props) => {
 
-  return <button style={{color: props.color, fontSize: props.fontSize}}  className={`glow-on-hover `}> {props.btnLabel} </button>
+  const onClick = () => {
+    alert("Hello");
+  }
+
+  return <button 
+  onClick = {onClick}
+  style={{...props.style}}  className={`glow-on-hover `}> {props.btnLabel} 
+  </button>
 }
 
